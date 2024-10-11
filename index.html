@@ -479,23 +479,20 @@
           </ul>
         </div>
         <div class="modal-window-footer-container">
-          <form>
-            <label for="e-mail" class="subscribe-text">Subscribe</label>
+          <form class="footer-form" name="footer-form"> 
 
-            <div class="footer-form">
-              <input
-                type="email"
-                placeholder="E-mail"
-                class="footer-email"
-                id="e-mail"
-              />
+            <label class="form-label">
+                <span class="form-text"> Subscribe</span>
+              <input class="form-mail" type="email" name="mail" placeholder="E-mail"/>
+            </label>
 
-              <button type="submit" class="subscribe-button">Subscribe</button>
+            <button class="subscribe-button" type="submit"> Subscribe
 
-              <svg width="24" height="24" class="icon-paper-plane">
-                <use href="./images/icons.svg#icon-paper-plane"></use>
+              <svg class="sub-icon" width="24px" height="24px">
+                <use href="/images/icons.svg#icon-paper-plane"></use>
               </svg>
-            </div>
+          </button>
+
           </form>
         </div>
       </div>
